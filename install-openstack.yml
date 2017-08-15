@@ -22,7 +22,7 @@
     git: repo=https://github.com/openstack-dev/devstack.git
          dest=~/devstack
   - name: devstack local.conf
-    template: src=templates/local.conf.temp
+    template: src=local.conf.temp
               dest=~/devstack/local.conf
   - name: unstack it
     command: chdir=~/devstack ./unstack.sh

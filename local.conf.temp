@@ -1,0 +1,6 @@
+[[local|localrc]]
+ADMIN_PASSWORD=secret
+MYSQL_PASSWORD=secret
+RABBIT_PASSWORD=secret
+SERVICE_PASSWORD=secret
+HOST_IP=127.0.0.1s
