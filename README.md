@@ -8,7 +8,7 @@ This project is a set of ansible script to up and make a provision of an OpenSta
     1. `. openrc.sh`
     1. `ansible-playbook asd-acn-openstack-and-ansible/install-dependencies.yml`
     1. `ansible-playbook asd-acn-openstack-and-ansible/install-openstack.yml`
-3. You can now visit the URL http://<your-gcp-external-ip>/dashboard/
+3. You can now visit the URL http://[your-gcp-external-ip]/dashboard/
 
 ### About the environment
 - GCP
